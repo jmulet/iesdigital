@@ -1,0 +1,14 @@
+<repository>
+<distributions>
+  <distribution name="iesdigital" version="4.5.1" file="iesdigital/master/distributions/iesdigital-windows-4.5.1.zip"/>
+</distributions>
+<modules>
+  <module name="anuncis" version="1.1" file="iesdigital/master/modules/org-iesapp-modules-anuncis-1.1.mod"/>
+  <module name="guardies" version="1.2" file="iesdigital/master/modules/org-iesapp-modules-guardies-1.2.mod"/>
+  <module name="reserves" version="1.5" file="iesdigital/master/modules/org-iesapp-modules-reserves-1.5.mod"/>
+</module>
+
+<plugins>
+
+</plugins>
+</repository>
