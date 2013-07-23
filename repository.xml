@@ -5,6 +5,7 @@
 </distributions>
 <modules>
   <module name="anuncis" class="org.iesapp.modules.AnuncisModule">
+      <version name="1.2" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-anuncis-1.2.mod"/>
       <version name="1.1" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-anuncis-1.1.mod"/>
   </module>
   <module name="guardies" class="org.iesapp.modules.GuardiesModule">
