@@ -12,7 +12,7 @@
       <version name="2.5" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-guardies-2.5.mod"/>
   </module>
   <module name="reserves" class="org.iesapp.modules.reserves.ReservesModule">
-      <version name="2.0" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-reserves-2.0.mod"/>
+      <version name="2.0" file="https://dl.dropboxusercontent.com/u/92714512/org-iesapp-modules-reserves-2.0.mod"/>
   </module>
 </modules>
 
