@@ -1,22 +1,51 @@
 <root>
 <repository>
 <distributions>
-  <distribution name="iesdigital" version="4.5.1" file="iesdigital/master/distributions/iesdigital-windows-4.5.1.zip"/>
+  <distribution name="iesdigital" version="4.5" file="iesdigital/master/distributions/iesdigital-windows-4.5.1.zip"/>
 </distributions>
 <modules>
+  <module name="admin-checksgd" class="org.iesapp.modules.admin.checksgd.CheckSGDModule">
+      <version name="1.0" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-admin-checksgd-v1.0.mod"/>
+  </module>
+  <module name="admin-importer" class="org.iesapp.modules.admin.importer.MedicamentsModule">
+      <version name="1.0" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-admin-importer-v1.0.mod"/>
+  </module>
+  <module name="admin-importer" class="org.iesapp.modules.admin.importer.NeseModule">
+      <version name="1.0" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-admin-importer-v1.0.mod"/>
+  </module>
+  <module name="cloudwsclient" class="org.iesapp.modules.cloud.CloudModule">
+      <version name="1.0" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-cloudwsclient-v1.0.mod"/>
+  </module>
+  <module name="fitxes-tutoria" class="org.iesapp.modules.fitxes.FitxesModule">
+      <version name="1.6" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-fitxes-v1.6.mod"/>
+  </module>
+  <module name="mensajesup" class="org.iesapp.modules.mensajesup.MensajesUPModule">
+      <version name="1.4" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-mensajesup-v1.4.mod"/>
+  </module>
+  <module name="missatgeria" class="org.iesapp.modules.missatgeria.MissatgeriaModule">
+      <version name="1.3" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-missatgeria-v1.3.mod"/>
+  </module> 
+  <module name="presencia" class="org.iesapp.modules.presencia.PresenciaModule">
+      <version name="1.0" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-presencia-v1.0.mod"/>
+  </module> 
   <module name="anuncis" class="org.iesapp.modules.anuncis.AnuncisModule">
-      <version name="1.2" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-anuncis-1.2.mod"/>
-      <version name="1.1" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-anuncis-1.1.mod"/>
+      <version name="1.2" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-anuncis-v1.2.mod"/>
   </module>
   <module name="guardies" class="org.iesapp.modules.guardies.GuardiesModule">
-      <version name="2.5" file="https://raw.github.com/jmulet/iesdigital/master/modules/org-iesapp-modules-guardies-2.5.mod"/>
+      <version name="1.4" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-guardies-v1.4.mod"/>
   </module>
   <module name="reserves" class="org.iesapp.modules.reserves.ReservesModule">
-      <version name="2.0" file="https://dl.dropboxusercontent.com/u/92714512/org-iesapp-modules-reserves-2.0.mod"/>
+      <version name="1.4" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-reserves-v1.4.mod"/>
+  </module>
+  <module name="userswidget" class="org.iesapp.modules.userswidget.UsersWidgetModule">
+      <version name="1.2" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-userswidget-v1.2.mod"/>
   </module>
 </modules>
 
 <plugins>
+  <plugin name="justificarfaltes" class="org.iesapp.modules.fitxes.plugins.JFPlugin">
+      <version name="1.0" file="https://dl.dropboxusercontent.com/u/92714512/iesDigitalRepo/org-iesapp-modules-fitxes-plugins-justificarfaltes-v1.0.plg"/>
+  </plugin>
 </plugins>
 </repository>
 </root>
